@@ -8,6 +8,8 @@
                20px 0px 0px 20px #1f2937;
 }
 
+/* First section */
+
 nav {
     display: flex;
     justify-content: center;
@@ -67,8 +69,11 @@ button, #container {
     border-radius: 8px;
 }
 
+/* second section */
+
 .second {
     text-align: center;
+    margin-bottom: 8em;
 }
 
 h2 {
@@ -81,4 +86,28 @@ h2 {
 .figures {
     display: flex;
     justify-content: center;
+}
+
+/* third section */
+
+.third {
+    text-align: center;
+    background: #e5e7eb;
+    box-shadow: -20px 0px 0px 20px #e5e7eb,
+               20px 0px 0px 20px #e5e7eb;
+    padding: 4em;
+    margin-bottom: 8em;
+}
+
+#quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: light;
+    font-style: italic;
+}
+
+#autor{
+    margin-left: 30em;
+    font-size: 25px;
+    font-weight: bolder;
 }
