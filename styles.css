@@ -66,3 +66,19 @@ button, #container {
     color: #f9faf8;
     border-radius: 8px;
 }
+
+.second {
+    text-align: center;
+}
+
+h2 {
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 39px;
+    margin: 18mm;
+}
+
+.figures {
+    display: flex;
+    justify-content: center;
+}
