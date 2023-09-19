@@ -111,3 +111,30 @@ h2 {
     font-size: 25px;
     font-weight: bolder;
 }
+
+/* fourth section */
+
+.fourth {
+    margin-bottom: 8em;
+    padding: 25px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    width: 28cm;
+    padding: 30px;
+    margin: 1px auto;
+    align-items: center;
+}
+
+#cta {
+    border: 2px solid white;
+    padding: 9px 34px;
+}
+
+footer {
+    text-align: center;
+    color: #e5e7eb;
+    padding: 23px 23px;
+}
