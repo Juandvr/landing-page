@@ -4,8 +4,7 @@
 
 .hero, footer {
     background: #1f2937;
-    box-shadow: -20px 0px 0px 20px #1f2937,
-               20px 0px 0px 20px #1f2937;
+    box-shadow: -10px -20px 0px 20px #1f2937, 14px -20px 0px 20px #1f2937;
 }
 
 /* First section */
@@ -88,11 +87,26 @@ button, #container {
     margin-bottom: 8em;
 }
 
-h2 {
+.title2 {
     font-weight: bolder;
     color: #1f2937;
-    font-size: 39px;
+    font-size: 30px;
     margin: 18mm;
+}
+
+.placeholder2 {
+    border: solid rgb(102, 102, 227) 4px;
+    padding: 5em;
+    border-radius: 15px;
+}
+
+.caption {
+    margin: 8px;
+    color: #8c8f96;
+}
+
+.figure {
+    margin: 0 1em;
 }
 
 .figures {
