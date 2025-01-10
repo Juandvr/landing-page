@@ -34,6 +34,7 @@ ul {
 #hero-main {
     font-weight: bolder;
     font-size: 48px;
+    margin: 0;
 }
 
 #hero-logo {
@@ -45,28 +46,39 @@ ul {
     color: #e5e7eb;
     font-size: 18px;
     text-decoration: none;
+    margin: 10px 0;
 }
 
 .first {
     display: flex;
-    justify-content: space-evenly;    
+    justify-content: center;    
 }
 
 #hero-text {
     margin-bottom: 7em;
-    margin-right: 20em;
+    margin-right: 4em;
 }
 
 button {
     all: unset;
     font-weight: bold;
-    padding: 8px 12mm;
+    padding: 8px 9mm;
 }
 
 button, #container {
     background-color: #3882f6;
     color: #f9faf8;
     border-radius: 8px;
+}
+
+.placeholder {
+    display: flex;
+    background-color: #6D747D;
+    width: 32em;
+    height: 15em;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
 }
 
 /* second section */
