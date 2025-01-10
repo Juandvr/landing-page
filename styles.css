@@ -2,7 +2,7 @@
     font-family: 'Roboto';
 }
 
-.hero, footer {
+.hero {
     background: #1f2937;
     box-shadow: -10px -20px 0px 20px #1f2937, 14px -20px 0px 20px #1f2937;
 }
@@ -65,7 +65,7 @@ button {
 }
 
 button, #container {
-    background-color: #3882f6;
+    background-color: #3B82F6;
     color: #f9faf8;
     border-radius: 8px;
 }
@@ -128,7 +128,6 @@ button, #container {
 #quote {
     font-size: 36px;
     color: #1f2937;
-    font-weight: light;
     font-style: italic;
 }
 
@@ -148,7 +147,7 @@ button, #container {
 #container {
     display: flex;
     justify-content: space-around;
-    width: 28cm;
+    width: 25cm;
     padding: 30px;
     margin: 1px auto;
     align-items: center;
@@ -160,6 +159,8 @@ button, #container {
 }
 
 footer {
+    background: #1f2937;
+    box-shadow: -8px 20px 0px 20px #1f2937, 5px 7px 0px 20px #1f2937;
     text-align: center;
     color: #e5e7eb;
     padding: 23px 23px;
